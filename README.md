@@ -9,6 +9,9 @@
           -  *.tfstate.backup
           -  secret_keys_file or .env
     
+    3.  From digitalocean, put the digitalocean api token into the .env file 
+          -  "export TF_VAR_do_token={DigitalOcean_API_KEY}
+    
 # Terraform    
 
     1.  Install Terraform via sudo apt-get install terraform
